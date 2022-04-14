@@ -1,7 +1,6 @@
 import { refElement } from '@muban/muban';
-import type { BindProps } from '@muban/muban/lib/bindings/bindings.types';
-import { createComponentInstance } from '@muban/muban/lib/Component';
-import type { ElementRef } from '@muban/muban/lib/refs/refDefinitions.types';
+import type { BindProps, ElementRef } from '@muban/muban';
+import { createComponentInstance } from '@muban/muban/dist/esm/lib/Component';
 import { nanoid } from 'nanoid';
 
 /**

@@ -38,7 +38,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@muban/muban": "^1.0.0-alpha.28",
+    "@muban/muban": "^1.0.0-alpha.33",
     "nanoid": "^3.1.31"
   },
   "devDependencies": {

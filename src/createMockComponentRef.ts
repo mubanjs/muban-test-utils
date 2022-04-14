@@ -1,7 +1,6 @@
 import { defineComponent, refComponent } from '@muban/muban';
-import type { ComponentFactory } from '@muban/muban';
-import { createComponentInstance } from '@muban/muban/lib/Component';
-import type { ComponentRef } from '@muban/muban/lib/refs/refDefinitions.types';
+import type { ComponentFactory, ComponentRef } from '@muban/muban';
+import { createComponentInstance } from '@muban/muban/dist/esm/lib/Component';
 import { nanoid } from 'nanoid';
 
 /**

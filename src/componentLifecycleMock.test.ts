@@ -1,10 +1,7 @@
 import { getMubanLifecycleMock, runComponentSetup } from './componentLifecycleMock';
 import { onMounted, onUnmounted, ref, watchEffect } from '@muban/muban';
-import type * as Muban from '@muban/muban';
 
 jest.mock('@muban/muban', () => getMubanLifecycleMock());
-
-// const { ref, watchEffect } = jest.requireActual<typeof Muban>('@muban/muban');
 
 function useTest({
   setup,
